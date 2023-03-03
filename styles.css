@@ -1,5 +1,5 @@
 body {
-  background: #ddd;
+  background: rgb(rgb(26, 56, 80));
   margin: 1rem;
   padding: 1rem;
   max-width: 500px;
@@ -8,7 +8,7 @@ body {
 }
 
 nav {
-	border-bottom: 2px solid orange;
+	border-bottom: 2px solid rgb(242, 157, 65);
 }
 
 ol {
@@ -21,11 +21,11 @@ ol {
 }
 
 a {
-	color: orange;
+	color: rgb(242, 157, 65);
 }
 
 a:visited {
-	color: crimson;
+	color: rgb(173, 69, 35);
 }
 
 
@@ -35,4 +35,16 @@ input {
 
 img {
 	max-width: 300px;
+}
+
+.home{
+	display: flex;
+	flex-direction: row;
+}
+.home img{
+	margin:left;
+}
+
+.home.intro {
+margin:right;
 }
